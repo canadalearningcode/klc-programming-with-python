@@ -1,3 +1,4 @@
+# [TESTING]
 # Kids Learning Code: Programming with Python
 
 ## Quick Links
@@ -15,7 +16,7 @@ Youth Facilitator/ Instructor Handbook: <a href="http://bit.ly/youth-facilitator
 
 # ATTRIBUTIONS:
 
-Content created by Courtney Schreiter for [Canada Learning Code](http://canadalearningcode.ca/).
+Content created by Brooke Snow for [Canada Learning Code](http://canadalearningcode.ca/).
 
 [Slide presentation](https://github.com/ladieslearningcode/llc-slidedeck-template) created by [Christina Truong](http://christinatruong.com/) for [Canada Learning Code](http://canadalearningcode.ca/).
 
