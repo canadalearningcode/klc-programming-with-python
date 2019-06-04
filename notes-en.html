@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Canada Learning Code</title>
+  <link rel="stylesheet" href="framework/css/slideshow.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/fonts.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/highlightjs/github.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/styles.css" data-noprefix>
+  <link rel="shortcut icon" href="framework/img/favicon.ico">
+
+  <!-- Takes care of CSS3 prefixes -->
+  <script src="framework/scripts/prefixfree.min.js"></script>
+
+  <!-- opens all links in a new window -->
+  <base target="_blank">
+</head>
+
+<!-- Timer/progress bar: Define the presentation duration using "data-duration" in minutes. -->
+<body class="en" data-duration="360">
+
+
+  <main>
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      # Kids Learning Code: Programming with Python
+
+      ##Instructor Notes
+      ##3 hours
+
+      <br>
+      #Resources
+
+      * Placemat Activity [lesson plan](https://docs.google.com/document/d/11cx0nO4jScwpIRkig7vvGu9sxCedOXRnUaVQR7SQSwM/edit)
+
+      <br>
+      #Schedule
+
+      TBD
+
+
+      <br>
+      #Contingency
+
+      * (TBD)
+
+
+      <br>
+      #Specific Examples + Instructions
+
+      ##Concatentation (slide 25)
+      Point out the space we have between Hello and World, ask what would happen if we did not account for the space here (HelloWorld)
+
+      ##So Random (slide 30)
+      Explain 'what is a library'. A library is a collection of code that we can use to help us complete difficult or compliated tasks.
+
+      ##Casting (slide 39)
+      Take a moment to talk about why we are casting. Adding a string (a word) and a number doesn't make sense to Python just like it doesn't make sense to us.
+      Discuss how we can turn 5 into "5" but we can't turn something like "cat" into a number, we can only cast if it makes sense.
+
+    </script>
+  </section>
+  </main><!-- cls main section -->
+
+  <script src="framework/scripts/jquery-1.11.0.min.js"></script>
+  <script src="framework/scripts/slideshow.js"></script>
+
+  <!-- Uncomment the plugins you need -->
+  <script src="framework/scripts/plugins/css-edit.js"></script>
+  <script src="framework/scripts/plugins/css-snippets.js"></script>
+  <script src="framework/scripts/plugins/css-controls.js"></script>
+  <!-- <script src="plugins/code-highlight.js"></script>-->
+
+  <script src="framework/scripts/plugins/markdown/marked.js"></script>
+  <script src="framework/scripts/plugins/markdown/markdown.js"></script>
+  <script src="framework/scripts/plugins/highlight/highlight-8.4.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script src="framework/scripts/llc.js"></script>
+  <script>
+    var slideshow = new SlideShow();
+
+    // Grabs all the .snippet elements
+    var snippets = document.querySelectorAll('.snippet');
+    for(var i=0; i<snippets.length; i++) {
+      new CSSSnippet(snippets[i]);
+    }
+  </script>
+</body>
+</html>
