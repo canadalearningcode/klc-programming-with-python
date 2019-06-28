@@ -3,9 +3,9 @@
 
 ## Quick Links
 
-<!--Preview Instructor Notes: <a href="https://ladieslearningcode.github.io/klc-programming-with-python/notes-en.html">ladieslearningcode.github.io/klc-programming-with-python/notes-en.html</a>-->
+Preview Instructor Notes: https://ladieslearningcode.github.io/klc-programming-with-python/notes-en.html
 
-Preview Slides: <a href="https://ladieslearningcode.github.io/klc-programming-with-python/slides-en.html">ladieslearningcode.github.io/klc-programming-with-python/slides-en.html</a>
+Preview Slides: https://ladieslearningcode.github.io/klc-programming-with-python/slides-en.html
 
 ## Additional Resources (Optional)
 
