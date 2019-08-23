@@ -1,17 +1,23 @@
-# [TESTING]
+## English: (Scroll down for French)
+
 # Kids Learning Code: Programming with Python
 
 ## Quick Links
 
-Preview Instructor Notes: https://ladieslearningcode.github.io/klc-programming-with-python/notes-en.html
+Preview Instructor Notes: [https://ladieslearningcode.github.io/klc-programming-with-python/notes-en.html](ladieslearningcode.github.io/klc-programming-with-python/notes-en.html)
 
-Preview Slides: https://ladieslearningcode.github.io/klc-programming-with-python/slides-en.html
+Preview Slides: [https://ladieslearningcode.github.io/klc-programming-with-python/slides-en.html](ladieslearningcode.github.io/klc-programming-with-python/slides-en.html)
 
 ## Additional Resources (Optional)
 
 Unplugged Activities: <a href="http://bit.ly/unplugged-activities-doc">bit.ly/unplugged-activities-doc</a>
 
-Youth Facilitator/ Instructor Handbook: <a href="http://bit.ly/youth-facilitator-handbook-doc">bit.ly/youth-facilitator-handbook-doc</a>
+# Preparing for the Workshop
+
+* Download this folder
+* Follow along the slides and read the Instructor Notes (open in your browser)
+* Optional: Update the network info on slide 1 (in a text editor, like <a href="https://atom.io/">atom.io</a>)
+* Print the Instructor Notes, or have them open on your phone or another screen on the day-of.
 
 
 # ATTRIBUTIONS:
