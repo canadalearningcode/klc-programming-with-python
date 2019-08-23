@@ -11,9 +11,9 @@ See slide 9 for suggestions on how learners can incorporate this month’s theme
 
 ## Quick Links
 
-Preview Instructor Notes: [https://ladieslearningcode.github.io/klc-programming-with-python/notes-en.html](ladieslearningcode.github.io/klc-programming-with-python/notes-en.html)
+Preview Instructor Notes: https://ladieslearningcode.github.io/klc-programming-with-python/notes-en.html
 
-Preview Slides: [https://ladieslearningcode.github.io/klc-programming-with-python/slides-en.html](ladieslearningcode.github.io/klc-programming-with-python/slides-en.html)
+Preview Slides: https://ladieslearningcode.github.io/klc-programming-with-python/slides-en.html
 
 ## Additional Resources (Optional)
 
