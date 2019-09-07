@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Canada en programmation</title>
+  <link rel="stylesheet" href="framework/css/slideshow.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/fonts.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/highlightjs/github.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/styles.css" data-noprefix>
+  <link rel="shortcut icon" href="framework/img/favicon.ico">
+
+  <!-- S’occupe des préfixes CSS3 -->
+  <script src="framework/scripts/prefixfree.min.js"></script>
+
+  <!-- Ouvre tous les liens dans une nouvelle fenêtre -->
+  <base target="_blank">
+</head>
+
+<!-- Durée / barre de progression : définissez la durée de la présentation avec « data-duration » en minutes. -->
+<body class="en" data-duration="360">
+
+
+  <main>
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      # Jeunesse en programmation : Programmation en Python
+
+      ##Notes de la formatrice
+      ##3 heures
+
+      <br>
+      #Horaire
+
+      **Introduction (30 minutes)**
+
+      **Programmation en groupe (1 heure)**
+
+      **Pause (15 minutes)**
+
+      **Activité principale (45 minutes)**
+
+      **Conclusion + démonstrations (30 minutes)**
+
+
+      <br>
+      #Plan d’urgence
+
+      Si vous savez qu’il n’y aura pas d'accès à Internet pendant l’atelier, vous pouvez demander aux apprenants d’installer l’extension Chrome [Coding with Chrome](https://chrome.google.com/webstore/detail/coding-with-chrome/becloognjehhioodmnimnehjcibkloed), qui fonctionne tant en ligne que hors ligne.
+
+      1. Installez l'extension.
+      1. Sélectionnez « Launch App ».
+      1. Sélectionnez « Use Advanced Moded ».
+      1. Sélectionnez « Go Coding ».
+      1. Sélectionnez « Use Python ».
+      1. Créez un projet Python 3.x.
+      1. Travaillez sur ce projet plutôt que dans Repl (le projet s'exécute automatiquement par lui-même).
+      1. N’oubliez pas de renommer le projet en cliquant dans le coin en haut à gauche.
+
+
+      <br>
+      #Exemples et consignes
+      ##Le code, c'est... (diapositive 8)
+      Les ordinateurs ne sont pas très intelligents : les ordinateurs doivent leur dire exactement quoi faire.
+
+      ##Remue-méninges (diapositive 10)
+      Demandez aux apprenants de faire un remue-méninges avec leurs parents / tuteurs ou leurs voisins. Distribuez des marqueurs et du papier.
+
+      ##Générateur de nom d’utilisateur : qu'est-ce que c’est? (diapositive 14)
+      Dites aux apprenants qu'ils sont comme des « espions » qui se créent un « nom de code ».
+
+      ##Exemple de projet (diapositive 15)
+      Dans l'exemple de projet, montrez aux apprenants que le code que nous écrivons se trouve à gauche et le résultat du code (le programme exécuté) se trouve à gauche.
+      Zoomez à gauche et à droite afin que les deux côtés soient visibles même pour ceux au fond du local.
+      Il est pratique d'avoir un aperçu de notre code à droite, particulièrement pendant le débogage, pour vérifier les changements.
+
+      *Si l'exemple de projet ne fonctionne plus, ou si un apprenant l'a modifié, vous pouvez utiliser [ce code](solution-fr.py) pour lui faire retrouver son aspect original.*
+
+
+      ##Qu'est-ce que le Python? (diapositive 17)
+      Le Python est l’un des nombreux langages de programmation dans le monde.
+      Demandez aux apprenants s’ils ont déjà entendu parler d’autres langages de programmation (par exemple, le JavaScript, Ruby ou Scratch).
+      Nous choisissons le langage de programmation qui convient le mieux au projet que nous voulons créer. Dans le cas du Python, il s’agit d’un langage populaire pour programmer des jeux, tandis que le JavaScript est plus populaire pour créer des sites Web.
+
+      ##Créer un nouveau projet (diapositive 20)
+      Mentionnez qu’il s'agit d’un nom de fichier, pas d’un nom d’utilisateur. Que devions-nous mettre ou changer dans le nom? (Réponse : enlever notre prénom). Dans ce cas-ci, nous utiliserons notre prénom pour trouver nos projets plus facilement quand nous nous connecterons plus tard pour continuer à programmer.
+
+      ##Dis allô (diapositive 22)
+      Faites remarquer les parenthèses () aux apprenants. Dites-leur que les fonctions prennent généralement des parenthèses. À l’intérieur de ces parenthèses, nous mettrons le texte que nous voulons imprimer (sinon le Python ne comprendra pas!).
+      Sur leur clavier, les apprenants trouveront les parenthèses en appuyant sur Shift (ou Maj) + 9 et Shift (ou Maj) + 0.
+      Veuillez noter que Repl ajoute automatiquement la parenthèse de fermeture si nous l’oublions. Si nous faisons un retour en arrière et l'effaçons, nous devrons écrire une autre parenthèse nous-mêmes.
+
+      Félicitez les apprenants : en utilisant la fonction « print », ils ont écrit leur première ligne de code en Python!
+
+      Questions potentielles :
+      Qu'est-ce qu’un programme? Il s'agit du projet ou du code que nous créons.
+      Exécuter (« run ») un programme = exécuter le code.
+
+      ##Pro des maths (diapositive 24)
+      Le Python peut servir de calculatrice. Par exemple, nous pouvons utiliser les **opérateurs mathématiques** +, -, #, * (respectivement, l'addition, la soustraction, la division et la multiplication).
+      Dites au groupe que les nombres ne vont pas entre des guillemets "" ici. Les guillemets ne vont qu’autour du texte.
+
+      Montrez-leur où trouver le symbole # sur le clavier.
+
+      ##Concaténation (diapositive 25)
+      Faites remarquer l’espace dans « Allô toi! » aux apprenants. Demandez-leur ce qui se passerait si nous n’ajoutions pas d’espace (Allôtoi).
+
+      ##Exercice (diapositive 27)
+      Utilisez cette diapositive pour aider les apprenants à programmer.
+      Décidez d’une valeur pour « boîte » en groupe. Encouragez les apprenants à « sauter boîte fois » et à « applaudir boîte fois », un peu comme si vous faisiez un jeu de « Jean dit ».
+
+      ##Créer une variable (diapositive 28)
+      Nous pouvons créer une variable en tapant un mot sans guillemets "". Ce mot deviendra le nom de la variable. Nous mettons quelque chose (une valeur) dans la « boîte » (la variable) en ajoutant le symbole =.
+      Demandez : Pouvons-nous mettre une chaîne dans une variable? Pouvons-nous mettre un nombre entier? Oui!
+      Encouragez les apprenants à changer les valeurs des variables.
+
+      ##Listes (diapositive 32)
+      Dans ce cas-ci, la variable « boîte » peut contenir beaucoup de choses en même temps.
+
+      Qu'est-ce que la syntaxe? Réponse : Les règles (la grammaire) du langage. Par exemple, les listes ont des crochets [] et les chaînes prennent des guillemets "".
+
+
+      ##Valeur aléatoire (diapositives 33-34)
+      Activité interactive : faites une activité simple durant laquelle des volontaires pigeront des objets au hasard « dans un chapeau ».
+
+      Demandez : « Dans la vraie vie, qu'est-ce qu’une bibliothèque? »
+      Expliquez-leur qu’une bibliothèque de code est comme une vraie bibliothèque : elle est remplie de livres (des extraits de code) qui contiennent des informations (des fonctions, par exemple). Elles facilitent le travail des programmeurs, qui n’ont pas besoin de chercher et d’écrire beaucoup de code. Ils n’ont qu’à chercher un livre dans la bibliothèque.
+      Précisez que « import random » doit se trouver en haut du code.
+
+      Demandez aux apprenants s’ils ont une idée du sens de « int » dans « randint ». Si « rand »  veut dire « random » (aléatoire) en anglais, « int » veut dire « integer » (nombre entier). N’oubliez pas de dire au groupe que le nombre x doit être plus petit que le nombre y.
+
+      ##Remue-méninges (diapositive 36)
+      Accordez aux apprenants quelques minutes pour créer leurs listes.
+      Ensuite, donnez-leur le temps de faire une pause pour se dégourdir les jambes.
+
+      ##Tadam (diapositive 40)
+      Rappelez au groupe que les crochets [] sont très importants pour le Python. Si nous ne les ajoutons pas ou si nous nous trompons de symbole, notre programme sera « brisé ».
+      Précisez bien qu’il ne faut PAS avoir peur de briser un programme, car il est toujours possible de le réparer. Chaque liste a sa propre ligne.
+
+      Faites-leur remarquer que les messages d'erreur du Python sont très pratiques, en général. La plupart du temps, le message d'erreur nous indique le problème dans le code ou nous dit quelle ligne ne fonctionne pas.
+
+      ##Valeur aléatoire (diapositive 41)
+      Maintenant, nous pigerons des objets au hasard dans nos boîtes!
+
+      ##Transtypage (diapositive 44)
+      Parlons un peu du transtypage. À quoi sert-il? En fait, quand nous ajoutons une chaîne (un mot) à un nombre, le Python ne comprend pas pourquoi.
+      Expliquez que nous pouvons transformer 5 en « 5 », mais que « chat » ne peut pas être transformé en nombre. Le transtypage n'est possible que si la transformation est logique.
+
+      ##DÉMONSTRATIONS (diapositive 48)
+      Demandez à des volontaires de venir à l'avant pour présenter leur programme au reste de la classe. Vous avez aussi le choix d’organiser une « exposition », comme une galerie d'art. Les apprenants laisseront la fenêtre de leur projet ouverte sur leur ordinateur. Les participants feront le tour de la classe pour découvrir les projets des autres.
+
+
+    </script>
+  </section>
+  </main><!-- Section principale cls -->
+
+  <script src="framework/scripts/jquery-1.11.0.min.js"></script>
+  <script src="framework/scripts/slideshow.js"></script>
+
+  <!-- Enlevez les commentaires des modules dont vous avez besoin -->
+  <script src="framework/scripts/plugins/css-edit.js"></script>
+  <script src="framework/scripts/plugins/css-snippets.js"></script>
+  <script src="framework/scripts/plugins/css-controls.js"></script>
+  <!-- <script src="plugins/code-highlight.js"></script>-->
+
+  <script src="framework/scripts/plugins/markdown/marked.js"></script>
+  <script src="framework/scripts/plugins/markdown/markdown.js"></script>
+  <script src="framework/scripts/plugins/highlight/highlight-8.4.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script src="framework/scripts/llc.js"></script>
+  <script>
+    var slideshow = new SlideShow();
+
+    // Regroupe tous les éléments .snippet
+    var snippets = document.querySelectorAll('.snippet');
+    for(var i=0; i<snippets.length; i++) {
+      new CSSSnippet(snippets[i]);
+    }
+  </script>
+</body>
+</html>

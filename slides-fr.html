@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Canada en programmation</title>
+  <link rel="stylesheet" href="framework/css/slideshow.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/fonts.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/highlightjs/github.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/styles.css" data-noprefix>
+  <link rel="shortcut icon" href="framework/img/favicon.ico">
+
+  <!-- S’occupe des préfixes CSS3 -->
+  <script src="framework/scripts/prefixfree.min.js"></script>
+
+  <!-- Ouvre tous les liens dans une nouvelle fenêtre -->
+  <base target="_blank">
+</head>
+
+<!-- Durée / barre de progression : définissez la durée de la présentation avec « data-duration » en minutes. -->
+<body class="en" data-duration="360">
+
+
+  <main>
+    <!--Diapositive 1-->
+    <section class="slide welcome highlight">
+      <h1><img class="logo-stacked" src="framework/img/klc-logo-stacked-white.png" alt="Logo de Jeunesse en programmation">Bienvenue!</h1>
+
+      <div class="instructions">
+        <!-- AJOUTER LES INFOS SUR LE WI-FI ICI -->
+        <h2>Connecte- <br>toi</h2>
+        <p><strong>Wi-Fi :</strong> réseau Wi-Fi</p>
+        <p><strong>Mot de passe :</strong> mot de passe du Wi-Fi</p>
+        <hr>
+
+    </div>
+
+      <footer>
+        <a class="left" rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licence Creative Commons" src="framework/img/cc-by-nc.png" /></a>
+        <p class="left">Diapositives créées par <a href="http://christinatruong.com">Christina Truong</a>. Contenu créé par Brooke Snow pour <a prefix="cc: http://creativecommons.org/ns#" href="http://ladieslearningcode.com" property="cc:attributionName" rel="cc:attributionURL">Femmes en programmation</a></p>
+        <p class="right">Utilisez les flèches gauche <span class="arrow">&#8592;</span> et droite <span class="arrow">&#8594;</span> pour naviguer.</p>
+      </footer>
+    </section>
+
+    <!--Diapositive 2-->
+    <section class="slide intro">
+      <img class="logo" src="framework/img/klc-logo-white.png" alt="Logo de Jeunesse en programmation">
+      <h1 class="heading-bg">
+        <span>Programmation<br>
+        en Python</span>
+      </h1>
+
+      <ul>
+        <li><a href="http://twitter.com/learningcode">@learningcode</a></li>
+        <li><a href="https://twitter.com/search?q=%23kidslearningcode&src=typd">#kidslearningcode</a></li>
+      </ul>
+<!--
+      <div class="sponsor">
+        <p>En partenariat avec<br> <img src="framework/img/telus-logo-white.svg" alt="Telus"></p>
+      </div>-->
+      <footer>
+        <a class="left" rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licence Creative Commons" src="framework/img/cc-by-nc.png" /></a>
+        <p class="left">Diapositives créées par <a href="http://christinatruong.com">Christina Truong</a>. Contenu créé par Brooke Snow pour <a prefix="cc: http://creativecommons.org/ns#" href="http://ladieslearningcode.com" property="cc:attributionName" rel="cc:attributionURL">Femmes en programmation</a></p>
+        <p class="right">Utilisez les flèches gauche <span class="arrow">&#8592;</span> et droite <span class="arrow">&#8594;</span> pour naviguer.</p>
+      </footer>
+    </section>
+
+    <!--Diapositive 3-->
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        #Présentations
+      </script>
+    </section>
+
+    <!--Diapositive 4-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Table des matières
+
+        <div class="table-of-contents"></div>
+
+          <!-- Intro + Exemples de projet + Conférencier invité (10 h)
+
+        Réflexion sur le projet + Création d’une maquette (10 h 15)
+
+        Intro au HTML + CSS (10 h 45)
+
+        Dîner (12 h 30)
+
+        C’est le temps de créer! (13 h 15)
+
+        Démos + Publication (15 h 30) -->
+
+       </script>
+    </section>
+
+    <!--Diapositive 5-->
+      <!-- Insérer l’ordre du jour de l'atelier -->
+    <section class= "slide" data-markdown>
+      <script type="text/template">
+        #Ordre du jour
+
+        Introduction à la programmation
+
+        Programmation en Python
+
+        Pause
+
+        Générateur de nom d’utilisateur <!--Insérez le nom de l'activité ici-->
+
+      </script>
+    </section>
+
+    <!--Diapositive 6-->
+    <section class="slide centered" data-markdown>
+      <script type="text/template">
+       ![Bannière : Le code des programmeurs](framework/img/workshop/scroll.png)<br>LE CODE DES PROGRAMMEURS
+         ## 1. DEMANDE DE L’AIDE  <!-- .element: class="delayed" -->
+         ## 2. SOIS PRÉSENT  <!-- .element: class="delayed" -->
+         ## 3. FAIS DE TON MIEUX!  <!-- .element: class="delayed" -->
+      </script>
+    </section>
+
+    <!--Diapositive 7-->
+    <section class="slide title" data-toc data-markdown>
+     <script type="text/template">
+       # Qu'est-ce que le code?
+     </script>
+    </section>
+
+    <!--Diapositive 8-->
+    <section class="slide" data-markdown>
+     <script type= "text/template">
+       #Le code, c'est...
+       ## UN ENSEMBLE DE DIRECTIVES DISANT À L’ORDINATEUR QUOI FAIRE.
+
+       <br>
+       ![Gif de robot qui court gif](framework/img/workshop/runningrobot.gif)
+       ![Gif de robot qui danse](framework/img/workshop/dancingrobot.gif)
+       ![Gif de robot qui mange](framework/img/workshop/eatingrobot.gif)
+       ![Gif de robot qui danse](framework/img/workshop/dancingrobot2.gif)
+       ![Gif de robot qui danse](framework/img/workshop/bluerobot.gif)
+       ![Gif de robot qui danse](framework/img/workshop/partyrobot.gif)
+
+       <p> Dans le langage du code, nous appelons un ensemble d’instructions un <strong style="color:#00a076;">algorithme</strong>.</p><!-- .element: class="delayed" -->
+
+     </script>
+    </section>
+
+    <!--temp slide-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Le thème du mois de novembre est... LA SÉCURITÉ
+
+        **Nous allons créer un générateur de nom d’utilisateur pour naviguer sur Internet en sécurité.**
+
+        ![Détective Pikachu, gif](framework/img/workshop/pikachu.gif)
+
+          ---
+          <div class="dropdown">
+            <button class="dropbtn">Attributions</button>
+            <div class="dropdown-content">
+              <a href="https://giphy.com/gifs/detectivepikachumovie-pikachu-detective-detectivepikachu-42wQXwITfQbDGKqUP7">Détective Pikachu, gif</a>
+            </div>
+       </script>
+    </section>
+
+    <!--Diapositive 9-->
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        # L’atelier du jour
+        ## est consacré à la sécurité sur Internet
+      </script>
+    </section>
+
+    <!--Diapositive 10-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Remue-méninges
+
+        Mettons-nous en équipe de deux pour faire un remue-méninges sur la sécurité en ligne. Comment rester en sécurité sur Internet?
+
+
+        <img src="framework/img/workshop/elmo-thinking.gif"/>
+        <!--Changez le gif, au besoin-->
+        <br>
+
+        ---
+        <div class="dropdown">
+          <button class="dropbtn">Attributions</button>
+          <div class="dropdown-content">
+            <a href="https://giphy.com/embed/8acGIeFnqLA7S">Elmo, gif</a>
+          </div>
+
+
+      </script>
+    </section>
+
+    <!--Diapositive 11-->
+    <section class="slide two-col-list" data-markdown>
+      <script type="text/template">
+      # IDÉES :
+      * <img src="framework/img/workshop/babyhandraise.gif" width="400" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></img>
+      <br>
+      <div class="dropdown">
+        <button class="dropbtn">Attributions</button>
+        <div class="dropdown-content">
+          <a href="https://giphy.com/embed/VStxBrCyssRPO">Lever la main, gif</a>
+        </div>
+      * <textarea style="width: 100%; height: 400px; font-size: 25px;">La sécurité sur Internet, c'est...</textarea>
+
+      </script>
+    </section>
+
+
+    <!--Diapositive 12-->
+    <section class="slide two-col-list delayed" data-markdown>
+      <script type="text/template">
+        # Rester en sécurité sur Internet
+
+        * **Garde tes informations privées.** <!-- .element: class="delayed" -->
+          * N’utilise pas ton vrai nom comme nom d’utilisateur. <!-- .element: class="delayed" -->
+          * Partage ton mot de passe seulement avec tes parents ou tes tuteurs. <!-- .element: class="delayed" -->
+        * **Sois honnête.** <!-- .element: class="delayed" -->
+          * Dis toujours à tes parents ou à tes tuteurs le nom des sites que tu regardes. <!-- .element: class="delayed" -->
+
+
+        * **Ne parle pas à des étrangers en ligne.**<!-- .element: class="delayed" -->
+          * Dans la vraie vie, tu ne parlerais pas aux étrangers. Alors, tu ne devrais pas le faire sur Internet. Dis toujours à tes parents ou à tes tuteurs à qui tu parles. <!-- .element: class="delayed" -->
+        * **Sois gentil.** <!-- .element: class="delayed" -->
+          * L’intimidation sur Internet n'est pas différente de l’intimidation dans la vraie vie. Ce n'est pas parce que tu es caché derrière ton téléphone, ta tablette ou ton ordinateur que c'est bien d’intimider quelqu’un! <!-- .element: class="delayed" -->
+          * Parles-en à un adulte si tu es victime d'intimidation ou si tu connais quelqu'un qui en est victime. <!-- .element: class="delayed" -->
+
+
+
+        <div class="dropdown">
+          <button class="dropbtn">Attributions</button>
+          <div class="dropdown-content">
+            <a href="https://kidshealth.org/en/kids/online-id.html?WT.ac=ctg#cathouse">KidsHealth: Online Safety for Kids (en anglais)</a>
+          </div>
+      </script>
+    </section>
+
+
+    <!--Diapositive 13-->
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        # Le projet du jour
+        ## Nous allons créer un générateur de nom d’utilisateur avec le Python.
+      </script>
+    </section>
+
+    <!--Diapositive 14-->
+    <section class="slide centered" data-markdown>
+      <script type="text/template">
+        #Un générateur de nom d’utilisateur... Mais qu'est-ce que c’est? <!--Insérez le nom de l'activité ici -->
+        Un nom d’utilisateur est comme un surnom ou un nom de code que tu peux utiliser en ligne à la place de ton vrai nom.
+
+        Durant l'atelier d'aujourd’hui, nous utiliserons le Python pour nous aider à créer des noms d’utilisateur *aléatoires* (au hasard) que nous pourrons utiliser sur des sites Web et dans des jeux vidéo!
+
+
+
+          <img src="framework/img/workshop/adventure-time2.gif" width="480" height="300" frameBorder="0" class="giphy-embed" allowFullScreen></img>
+          <!--Changez le gif, au besoin-->
+          <br>
+
+          ---
+          <div class="dropdown">
+            <button class="dropbtn">Attributions</button>
+            <div class="dropdown-content">
+              <a href="https://giphy.com/gifs/cartoon-network-emea-lpO2yW1AThAcXsZMxZ">Adventure Time, gif</a>
+            </div>
+
+      </script>
+    </section>
+
+    <!--Diapositive 15-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Exemple de projet
+
+        Regardons un <a href="https://repl.it/repls/code-generateur-nom-aleatoire">exemple de projet!</a>
+
+        <img  src="framework/img/workshop/generator-eg.gif" alt="Gif de nom d’utilisateur">
+        <!--Insérer un lien vers un exemple de projet-->
+      </script>
+    </section>
+
+    <!--Diapositive 16-->
+    <section class="slide title" data-toc data-markdown>
+      <script type="text/template">
+        # Qu'est-ce que le Python?
+      </script>
+    </section>
+
+      </script>
+    </section>
+
+    <!--Diapositive 17-->
+    <section class="slide two-col-list" data-markdown>
+      <script type="text/template">
+        # Le Python
+
+        * Qu'est-ce que le Python?
+          * Le Python est un langage de programmation. Un langage de programmation est un outil qui sert à communiquer avec des ordinateurs et même avec d'autres humains.<!-- .element: class="delayed" -->
+          * Nous pouvons nous servir du Python pour faire beaucoup de choses différentes. Par exemple, nous pouvons l’utiliser pour créer des jeux vidéo, analyser des données et programmer des robots.<!-- .element: class="delayed" -->
+          * Le langage Python a été créé spécialement pour être à la fois très pratique et facile à apprendre.<!-- .element: class="delayed" -->
+          * Le Python est un outil qui nous aide à dire à un ordinateur quoi faire.<!-- .element: class="delayed" -->
+        * ![Image de serpent](framework/img/workshop/snake-emoji.png)
+
+          ---
+          <div class="dropdown">
+            <button class="dropbtn">Attributions</button>
+            <div class="dropdown-content">
+              <a href="https://pixabay.com/en/message-chat-communication-symbol-42929/">Image de bulle de texte</a>
+          </div>
+
+
+      </script>
+    </section>
+
+    <!--Diapositive 18-->
+    <section class="slide title" data-toc data-markdown>
+      <script type="text/template">
+        #ON PROGRAMME!
+      </script>
+    </section>
+
+    <!--Diapositive 19-->
+    <section class="slide two-col-list" data-markdown>
+      <script type="text/template">
+        #Programmer en Python
+
+        * Connecte-toi.
+          * Va à l'adresse [repl.it](https://repl.it).
+          * Clique sur « Log In » (dans le coin en haut).
+          * ![Connexion à repl.it](framework/img/workshop/replit-login.png)
+        * Nom d’utilisateur et mot de passe :
+          * **Nom d’utilisateur : learningcode**
+          * **Mot de passe : Helloworld123**
+      </script>
+    </section>
+
+    <!--Diapositive 20-->
+    <section class="slide two-col-list" data-markdown>
+      <script type="text/template">
+        # Créer un nouveau projet
+
+        * Crée un nouveau repl.
+          * Sélectionne « Python » comme langage.
+          * <img src="framework/img/workshop/repl-python.png" />
+        * Conseil :
+          * Nomme ton projet comme ceci : <br> [date-nom-ville] pour le trouver facilement plus tard.
+          * Exemple : 29juin-julia-québec
+
+      </script>
+    </section>
+
+    <!--Diapositive 21-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Une chaîne de mots
+
+        Les <strong>mots</strong> des humains sont des <strong>chaînes</strong> pour le Python.
+
+        Les <strong>chaînes</strong> sont écrites entre "guillemets".
+
+
+        ![perles](framework/img/workshop/beads.png)
+
+      </script>
+    </section>
+
+    <!--Diapositive 22-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Dis allô!
+
+        Tu peux utiliser la fonction ```print()``` pour « imprimer » un message en Python.
+
+        ```python
+        print("Allô!")  #Imprime un message qui dit allô (au fait, ceci est un commentaire)
+        ```
+        Clique sur « Run » pour exécuter le code que tu as écrit!
+
+
+        ![Éditeur Ruby](framework/img/workshop/repl-python-hello.png)
+
+      </script>
+    </section>
+
+    <!--Diapositive 23-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        ##Connaître les nombres
+
+        Les <strong> nombres</strong> des humains sont des <strong>entiers</strong> pour le Python. En anglais, on les appelle des `integers`.
+
+        Ce sont des « nombres entiers », des nombres sans virgules!
+
+        ![https://giphy.com/gifs/OxeCmRsZsXSCI/html5](framework/img/workshop/numbers.gif)
+
+        ---
+        <div class="dropdown">
+          <button class="dropbtn">Attributions</button>
+          <div class="dropdown-content">
+            <a href="https://giphy.com/gifs/OxeCmRsZsXSCI/html5">Sesame Street, gif</a>
+          </div>
+
+      </script>
+    </section>
+
+    <!--Diapositive 24-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Pro des maths
+
+        Le Python peut aussi faire des maths avec des <strong>opérateurs</strong>!
+
+        ```python
+        print(5 + 10)  #Addition
+        print(5 * 10)  #Multiplication
+        print(10 / 5)  #Division
+        print(10 - 5)  #Soustraction
+        ```
+
+        As-tu remarqué? Nous n’utilisons pas de guillemets pour les opérateurs. En fait, lorsque nous faisons des équations mathématiques, nous n’utilisons pas de " ". Les guillemets sont seulement utilisés pour les chaînes.
+
+        ![http://giphy.com/gifs/uofcalifornia-code-java-calculator-3o85xFdBA27p6TJWgM](framework/img/workshop/calculator.gif)
+
+        ---
+        <div class="dropdown">
+          <button class="dropbtn">Attributions</button>
+          <div class="dropdown-content">
+            <a href="http://giphy.com/gifs/uofcalifornia-code-java-calculator-3o85xFdBA27p6TJWgM">Calculatrice, gif</a>
+          </div>
+
+      </script>
+    </section>
+
+    <!--Diapositive 25-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Concaténation
+
+        En Python, nous pouvons *additionner* des chaînes ou des variables pour former une phrase. C’est ce que l’on appelle la **concaténation**.
+
+        ```python
+        print("Allô" + " " + "toi!")
+
+        ```
+        Essaie de concaténer quelques chaînes pour former une phrase. N’oublie pas de mettre des ```" "``` autour de tes chaînes!
+
+        Qu'arrive-t-il si nous ne mettons pas d'espace? Essaie-le!  Imprime ```("Allô"+"toi!")``` pour voir la chaîne sans espace (Indice : « print »).
+
+      </script>
+    </section>
+
+    <!--Diapositive 26-->
+    <section class="slide two-col-list" data-markdown>
+      <script type="text/template">
+        # Boîte à surprise
+        * Qu'est-ce qu’il y a dans la boîte?
+          * Une <strong>variable</strong> est comme une boîte. Nous pouvons l’utiliser pour stocker des informations.
+          * Nous pouvons stocker des <strong>chaînes</strong> ou des <strong>entiers</strong> dans les <strong>variables</strong>.
+          * ![variables](framework/img/workshop/variables_fr.png)
+        * Règles pour créer un nom de variable :
+          * Le nom doit commencer par une lettre ou un trait de soulignement (_).
+          * Il ne peut pas commencer par un nombre.
+          * Il ne doit pas contenir de caractères spéciaux comme !, @, # ou %.
+          * Les noms sont sensibles aux majuscules et aux minuscules. Par exemple, ABC, Abc et abc sont tous des noms différents.
+
+
+        ---
+        <div class="dropdown">
+          <button class="dropbtn">Attributions</button>
+          <div class="dropdown-content">
+            <a href="https://pixabay.com/en/box-open-cardboard-box-cardboard-152428/">Image de boîte</a>
+          </div>
+
+      </script>
+    </section>
+
+    <!--Diapositive 27-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Exercice!
+        * Définis « boîte » comme un entier.
+          * J'ai boîte ans.<!-- .element: class="delayed" -->
+          * Je saute boîte fois.<!-- .element: class="delayed" -->
+          * J’applaudis boîte fois.<!-- .element: class="delayed" -->
+        * Définis « boîte » comme une chaîne.<!-- .element: class="delayed" -->
+          * Dis : « J’aime la crème glacée à saveur de boîte ».<!-- .element: class="delayed" -->
+          * Dis : « Mon chat s'appelle boîte ».<!-- .element: class="delayed" -->
+
+      </script>
+    </section>
+
+    <!--Diapositive 28-->
+    <section class="slide two-col-list" data-markdown>
+      <script type="text/template">
+        # Crée une variable
+
+        * Crée une variable qui s'appelle `salut`.
+          ```python
+          salut = "miaou"  #Définis la variable ‘salut’ comme tu veux!
+          print(salut)
+          ```
+        * ![Chat qui dit salut](framework/img/workshop/cat-hi.gif)
+
+        ---
+        <div class="dropdown">
+          <button class="dropbtn">Attributions</button>
+          <div class="dropdown-content">
+            <a href="https://www.pinterest.ca/pin/219832025538228814/">Chat qui dit salut</a>
+          </div>
+
+      </script>
+    </section>
+
+<!-- Diapositives sur le transtypage (le casting) -->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Transtypage
+
+        Que se passe-t-il quand nous disons au Python d’additionner une chaîne et un nombre?
+
+        Essayons ça : ```print("5" + 5)```
+
+        Qu'est-ce qui s'est passé?
+
+        Parfois, il faut dire clairement au Python qu’une variable est une chaîne ou un nombre.
+
+        C’est ce qu’on appelle le « transtypage » (`casting` en anglais). On *trans*forme le *type* de la variable.
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Quelques exemples
+        Nous ne pouvons pas additionner deux variables de types différents, sinon le Python ne comprend plus rien!
+
+        Il affichera un message d'erreur si nous additionnons `"5" + 5`. La solution est de transformer le premier 5 en nombre. Pour faire ça, nous utiliserons la fonction `int()`.
+
+        ```python
+        print(int("5") + 5)
+
+        ```
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Quelques exemples
+        Nous pouvons aussi transformer les nombres et les variables en chaînes avec la fonction `str()`. (Une référence à `string`, « chaîne » en anglais.)
+
+        Essayons-le : créons une variable qui s'appelle monÂge et assignons-lui notre âge.
+
+        Ensuite, nous utiliserons le Python pour concaténer une phrase avec notre âge.
+
+
+        ```python
+        monÂge = 22
+        print("J’ai "+ str(monÂge) + " ans." )
+
+        ```
+      </script>
+    </section>
+<!-- Fin des diapositives sur le transtypage -->
+
+    <!--Diapositive 29-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # Listes
+
+      Si nous avons plusieurs objets semblables, nous pouvons les mettre dans une liste pour les utiliser plus tard.
+      Nous utiliserons cette syntaxe : ```maListe = [objet1, objet2, objet3]```
+
+      Créons une liste de couleurs :
+      ```python
+      couleurs = ["jaune", "bleu", "vert", "mauve", "rose"]
+      ```
+
+      N’oublie pas que
+      dans notre liste, chaque couleur se trouve dans des ```" "``` parce que ces valeurs sont des *chaînes*.
+
+      </script>
+    </section>
+
+    <!--Diapositive 30-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # Valeur aléatoire
+
+      Parfois, nous pourrions avoir besoin d’un nombre ou d’un objet au hasard dans une liste.
+
+      Heureusement, le Python peut nous aider à choisir une valeur aléatoire. Nous pouvons utiliser la bibliothèque ```random```.
+
+      En haut du code, nous écrirons ```import random``` pour dire au Python d’importer et d’utiliser la bibliothèque ```random```.
+
+      </script>
+    </section>
+
+    <!--Diapositive 30-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # Valeur aléatoire
+
+        * Pour obtenir un nombre aléatoire entre x et y, nous pouvons utiliser ```random.randint(x, y)``` (l’équivalent en mots : « nombre entier aléatoire entre x et y »).
+          * Remplace x et y par les nombres de ton choix, mais souviens-toi que le x doit toujours être un nombre plus petit que le y.
+          <br></br>
+        * Nous pouvons utiliser ```random.choice(maListe)``` pour obtenir un objet aléatoire dans une liste qui s'appelle ```maListe```.
+          * Remplace maListe par le nom de ta liste.
+          * Tu trouveras un exemple de solution dans la prochaine diapositive!
+
+
+      </script>
+    </section>
+
+    <!--Diapositive 30-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # Test, 1, 2...
+
+      ```python
+      import random
+
+      couleurs = ["jaune", "bleu", "vert", "mauve", "rose"]
+      couleurAléatoire = random.choice(couleurs)
+      print(couleurAléatoire)
+      ```
+
+
+      </script>
+    </section>
+
+    <!--Diapositive 30-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+      # C’est le temps de faire un petit remue-méninges!
+
+      Prenons quelques minutes pour réfléchir à des mots et écrire trois listes. Ne pense pas au code pour le moment.
+
+      Travaille en équipe pour écrire une liste d'adjectifs, d'animaux et de couleurs.
+      Nous utiliserons les listes que tu as créées dans le projet d’aujourd’hui.
+
+      Indice : Un adjectif est un mot qui décrit une qualité ou un défaut, comme *drôle*, *puant* ou *gourmand*.
+
+
+      </script>
+    </section>
+
+
+      <!--Diapositive 31-->
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        #PROJET PRINCIPAL
+        ##Générateur de nom d’utilisateur
+      </script>
+    </section>
+
+    <!--Diapositive 32-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Que devrions-nous mettre dans notre nom d’utilisateur?
+
+        **C'est le problème que nous essayerons de résoudre.**</br>
+
+        Nous devons trouver un nom d’utilisateur qui représente nos qualités et nos goûts, mais qui ne contient pas notre vrai nom. <!-- .element: class="delayed" -->
+
+        Dans un nom d’utilisateur, nous pouvons mettre un animal, un jeu, un nombre, une couleur, une équipe sportive... n'importe quoi! <!-- .element: class="delayed" -->
+
+        Par exemple, nous pourrions créer des noms comme TacoLicorne55, JoueurHockey777, LapinRose123, ChatGrognon12... <!-- .element: class="delayed" -->
+
+      </script>
+    </section>
+
+    <!--Diapositive 33-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Possibilités infinies
+
+        Commençons par décider des types de mots que nous voulons dans notre nom d’utilisateur.
+
+        Pour cette activité, nous choisirons des *adjectifs*, des *couleurs*, des *animaux* et des *nombres*. Nos noms d’utilisateur ressembleront à ceci :
+        **MiniÉléphantJaune52** ou **SuperDinosaureVert123**.
+
+        Tu choisis les mots et l’ordre des mots dans ton nom d’utilisateur!
+
+      </script>
+    </section>
+
+    <!--Diapositive 34-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Créer des listes
+
+        Maintenant, nous voulons faire des listes de mots possibles à inclure dans nos noms d’utilisateur.
+
+        Nous ferons des listes d’adjectifs, de couleurs et d'animaux. Nous nous occuperons des nombres plus tard.
+
+        ```python
+        listeAdjectifs = ["Joyeux", "Drôle", "Mini", "Super", "Musical", "Merveilleux"]
+
+        listeCouleurs = ["Jaune", "Rose", "Vert", "Bleu", "Orange"]
+
+        listeAnimaux = ["Éléphant", "Licorne", "Girafe", "Dinosaure", "Kangourou"]
+
+        ```
+
+      </script>
+    </section>
+
+    <!--Diapositive 35-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Valeurs aléatoires
+
+        Maintenant, nous voulons que le nom ait une valeur aléatoire tirée de chaque liste.
+
+        * Premièrement, ajoute ```import random``` en haut de ton code.
+        * Ensuite, crée 3 variables : ```adjectif```, ```couleur``` et ```animal```. Ces variables contiendront un objet choisi au hasard dans chaque liste.
+        * Utilise ```random.choice(liste)``` pour choisir un objet de chaque liste.
+
+        *Passe à la prochaine diapositive pour voir le code!*
+
+      </script>
+    </section>
+
+    <!--Diapositive 36-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Tadam!
+
+        ```python
+        import random
+
+        listeAdjectifs = ["Joyeux", "Drôle", "Mini", "Super", "Musical", "Merveilleux"]
+        listeCouleurs = ["Jaune", "Rose", "Vert", "Bleu", "Orange"]
+        listeAnimaux = ["Éléphant", "Licorne", "Girafe", "Dinosaure", "Kangourou"]
+
+        adjectif = random.choice(listeAdjectifs)
+        couleur = random.choice(listeCouleurs)
+        animal = random.choice(listeAnimaux)
+        ```
+      </script>
+    </section>
+
+    <!--Diapositive 37-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Nombre aléatoire
+
+        Ensuite, nous choisirons un nombre aléatoire qui sera ajouté à notre nom d’utilisateur.
+
+        Pour choisir un nombre entre 1 et 100, nous utiliserons cette syntaxe : ```nombre = random.randint(1, 100)```
+
+        Mais il y a un petit problème...
+
+      </script>
+    </section>
+
+    <!--Diapositive 38-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Transtypage
+
+
+        ```random.randint()``` choisit un *nombre entier* aléatoire et nous voulons ajouter une *chaîne* à notre nom d’utilisateur.
+
+        Heureusement, nous pouvons transformer le nombre entier aléatoire en chaîne avec la fonction ```str()```, comme ça :
+
+        ```python
+        nombre = str(random.randint(1, 100))
+        ```
+
+        C’est ce qu’on appelle le « transtypage » (`casting` en anglais). On *trans*forme le *type* de la variable.
+
+      </script>
+    </section>
+
+    <!--Diapositive 39-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Liste de vérification!
+
+        * Confirme que tu as fait ceci :
+          * J'ai importé la bibliothèque « random ».
+          * J'ai fait des listes de mots pour mon nom d’utilisateur.
+          * J’ai choisi un objet au hasard dans chaque liste et j’ai stocké chaque objet dans une variable.
+          * J’ai choisi un nombre entier au hasard et je l'ai transformé en chaîne.
+
+        Lève ta main quand tu as terminé!
+
+      </script>
+    </section>
+
+    <!--Diapositive 40-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Tout ensemble
+
+        Maintenant que nous avons nos listes, nos noms et nos nombres aléatoires, mettons-les ensemble pour créer un nom d’utilisateur!
+
+        Ton code devrait ressembler à ceci :
+        ```python
+        import random
+
+        listeAdjectifs = ["Joyeux", "Drôle", "Mini", "Super", "Musical", "Merveilleux"]
+        listeCouleurs = ["Jaune", "Rose", "Vert", "Bleu", "Orange"]
+        listeAnimaux = ["Éléphant", "Licorne", "Girafe", "Dinosaure", "Kangourou"]
+
+        adjectif = random.choice(listeAdjectifs)
+        couleur = random.choice(listeCouleurs)
+        animal = random.choice(listeAnimaux)
+        nombre = str(random.randint(1, 100))
+        ```
+
+      </script>
+    </section>
+
+    <!--Diapositive 41-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Tout ensemble
+
+        En bas de ton code, crée une nouvelle variable ```nomUtilisateur``` et fais la *concaténation* de tous tes mots aléatoires, comme ça :
+
+        ```python
+        nomUtilisateur = adjectif + couleur + animal + nombre
+        ```
+
+        Ensuite, imprime (print) un message à l’utilisateur pour lui dire le but du programme. Finalement, imprime le nom d’utilisateur.
+
+        ```python
+        print("Voici un générateur de nom d’utilisateur aléatoire")
+        print("Ton nom d’utilisateur aléatoire est : " + nomUtilisateur)
+        ```
+      </script>
+    </section>
+
+    <!-- Début de l'activité de programmation en groupe : texte à trous -->
+        <!--Diapositive 3 -->
+      <!--  <section class="slide title" data-markdown>
+        <script type="text/template">
+          #PROGRAMMATION EN GROUPE
+          ##Texte à trous
+        </script>
+        </section>
+
+        <!--Diapositive 3 -->
+      <!--  <section class="slide" data-markdown>
+          <script type="text/template">
+            #Texte à trous
+
+            Nous appliquerons nos nouvelles connaissances en Python en créant un texte à trous numérique!
+
+            Voici un modèle :
+
+            « Mon chat, c'est le meilleur. Il est (couleur) et il aime (nourriture). Mon chat est gros comme (nom). »
+
+          </script>
+        </section>
+
+        <!--Diapositive 3 -->
+      <!--  <section class="slide" data-markdown>
+          <script type="text/template">
+            #Texte à trous
+
+            En lisant le petit texte à trous, tu as sûrement remarqué qu’il y a 3 différents types de mots à écrire. Nous avons besoin d’une couleur, d’un nom de nourriture et d’un autre nom (une personne, un endroit ou une chose). Faisons une liste pour chaque type de mots :
+
+            ```python
+            listeCouleurs = ["mauve", "noir", "rose", "orange" ]
+            listeNourriture = ["des tacos", "des pommes", "du melon", "des sandwichs au fromage"]
+            listeNoms = ["une voiture", "une souris", "un éléphant", "une fusée"]
+            ```
+
+          </script>
+        </section>
+
+        <!--Diapositive 3 -->
+      <!--  <section class="slide" data-markdown>
+          <script type="text/template">
+            #Texte à trous
+
+            Ensuite, nous voulons choisir une valeur *aléatoire* tirée de chaque liste.
+            Pour faire ça, tu dois  ajouter```import random``` en haut de ton code et choisir 3 mots aléatoires.
+
+            ```python
+            import random
+
+            listeCouleurs = ["mauve", "noir", "rose", "orange" ]
+            listeNourriture = ["des tacos", "des pommes", "du melon", "des sandwichs au fromage"]
+            listeNoms = ["une voiture", "une souris", "un éléphant", "une fusée"]
+            ```
+
+          </script>
+        </section>
+
+        <!--Diapositive 3 -->
+      <!--  <section class="slide" data-markdown>
+          <script type="text/template">
+            #Texte à trous
+
+            Pour choisir les 3 mots aléatoires, suis les étapes suivantes. Premièrement, crée une variable pour contenir chaque mot. Deuxièmement, ajoute ```random.choice()``` pour chosiir un mot. N’oublie pas que « random » est « aléatoire » et que « choice » est « choix ».
+
+            ```python
+            couleur = random.choice(listeCouleurs)
+            nourriture = random.choice(listeNourriture)
+            nom = random.choice(listeNoms)
+            ```
+
+          </script>
+        </section>
+
+        <!--Diapositive 3 -->
+      <!--  <section class="slide" data-markdown>
+          <script type="text/template">
+            #Texte à trous
+
+            Finalement, utilise la *concaténation* pour mettre tous les mots ensemble.
+
+            ```python
+            print("Mon chat, c'est le meilleur. Il est " + couleur + " et il aime " + nourriture + ". Mon chat est gros comme " + nom + ".")
+            ```
+
+          </script>
+        </section>
+
+        <!--Diapositive 3 -->
+    <!--    <section class="slide" data-markdown>
+          <script type="text/template">
+            #Texte à trous
+
+            Voici le résultat :
+
+            ```python
+            import random
+
+            listeCouleurs = ["mauve", "noir", "rose", "orange" ]
+            listeNourriture = ["des tacos", "des pommes", "du melon", "des sandwichs au fromage"]
+            listeNoms = ["une voiture", "une souris", "un éléphant", "une fusée"]
+
+            couleur = random.choice(listeCouleurs)
+            nourriture = random.choice(listeNourriture)
+            nom = random.choice(listeNoms)
+
+            print("Mon chat, c'est le meilleur. Il est " + couleur + " et il aime " + nourriture + ". Mon chat est gros comme " + nom + ".")
+            ```
+
+          </script>
+        </section>
+    <!-- Fin de l'activité de programmation en groupe : texte à trous -->
+
+    <!--Diapositive 42-->
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        #DÉMOS
+      </script>
+    </section>
+
+    <main>
+      <!--Diapositive 43-->
+      <section class="slide" data-toc data-markdown>
+        <script type="text/template">
+          # Aujourd'hui, j'ai appris que...
+
+          <p><strong>Je peux</strong> créer des algorithmes en Python.</p><!-- .element: class="delayed" -->
+          <p><strong>Je peux</strong> utiliser des variables pour stocker des informations.</p><!-- .element: class="delayed" -->
+          <p><strong>Je peux</strong> utiliser des listes pour stocker un groupe d’objets semblables.</p><!-- .element: class="delayed" -->
+          <p><strong>Je peux</strong> utiliser la bibliothèque « random » pour générer des nombres et choisir des objets d’une liste au hasard.</p><!-- .element: class="delayed" -->
+          <p><strong>Je peux</strong> utiliser le Python pour CONTINUER À PROGRAMMER!</p><!-- .element: class="delayed" -->
+
+        </script>
+      </section>
+
+
+    <!-- Dernière diapositive -->
+    <section class="slide last">
+      <h1>Merci!</h1>
+      <h2 class="heading-bg">
+        <span>Programmation<br> en Python</span>
+      </h2>
+
+      <ul>
+        <li><a href="http://twitter.com/learningcode">@learningcode</a></li>
+        <li><a href="https://twitter.com/search?q=%23kidslearningcode&src=typd">#kidslearningcode</a></li>
+      </ul>
+
+      <p class="attribution">Diapositives créées par <a href="http://christinatruong.com">Christina Truong</a> à partir de <a href="https://github.com/LeaVerou/csss"> « SlideShow » de Lea Verou</a> et de <a href="http://lab.hakim.se/reveal-js/">reveal.js</a>.</p>
+    </section>
+
+  </main><!-- Section principale cls -->
+
+  <script src="framework/scripts/jquery-1.11.0.min.js"></script>
+  <script src="framework/scripts/slideshow.js"></script>
+
+  <!-- Enlevez les commentaires des modules dont vous avez besoin -->
+  <script src="framework/scripts/plugins/css-edit.js"></script>
+  <script src="framework/scripts/plugins/css-snippets.js"></script>
+  <script src="framework/scripts/plugins/css-controls.js"></script>
+  <!-- <script src="plugins/code-highlight.js"></script>-->
+
+  <script src="framework/scripts/plugins/markdown/marked.js"></script>
+  <script src="framework/scripts/plugins/markdown/markdown.js"></script>
+  <script src="framework/scripts/plugins/highlight/highlight-8.4.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script src="framework/scripts/llc.js"></script>
+  <script>
+    var slideshow = new SlideShow();
+
+    // Regroupe tous les éléments .snippet
+    var snippets = document.querySelectorAll('.snippet');
+    for(var i=0; i<snippets.length; i++) {
+      new CSSSnippet(snippets[i]);
+    }
+  </script>
+</body>
+</html>
